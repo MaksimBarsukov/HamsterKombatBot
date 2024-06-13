@@ -53,7 +53,6 @@
 
 # Linux
 ~/HamsterKombatBot >>> python3 -m venv venv
-~/HamsterKombatBot >>> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ~/HamsterKombatBot >>> source venv/bin/activate
 ~/HamsterKombatBot >>> pip3 install -r requirements.txt
 ~/HamsterKombatBot >>> cp .env-example .env
@@ -62,6 +61,7 @@
 
 # Windows
 ~/HamsterKombatBot >>> python -m venv venv
+~/HamsterKombatBot >>> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ~/HamsterKombatBot >>> venv\Scripts\activate
 ~/HamsterKombatBot >>> pip install -r requirements.txt
 ~/HamsterKombatBot >>> copy .env-example .env
